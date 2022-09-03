@@ -1,0 +1,24 @@
+{
+	"pais":{
+		"@nombre":"El Salvador",
+		"departamento":[
+			{
+				"@id":"1",
+				"@nombre":"San Salvador",
+				"cabecera":"San Salvador",
+				"habitantes":"1,700,000",
+				"altura":"545 MSNM"
+			},
+			{
+				"@id":"2",
+				"@nombre":"San Miguel",
+				"cabecera":"San Miguel",
+				"habitantes":"265.921",
+				"altura":"129 MSNM",
+				"monoda":"El dolar",
+				"codigoTelefonico":"+503",
+				"idioma":"Espanol"
+			}
+		]
+	}
+}

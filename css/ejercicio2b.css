@@ -1,0 +1,29 @@
+/* ejercicio2a.css GR19001 */
+
+pais,municipio *{
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 20px;
+    display:block;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: 6px darkgreen solid;
+    background:#181A1B;
+    color:white;
+}
+municipio *{
+    display:inline-block;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+departamento,municipio{
+    display:block;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+}
+
