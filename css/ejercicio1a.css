@@ -1,0 +1,60 @@
+/* ejercicio1a.css GR19001 */
+
+fichero{
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 20px;
+    display:block;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: 3px darkgreen solid;
+    background:#181A1B;
+    color:white;
+}
+
+ficha{
+    padding: 5px;
+    background-color:#82C5B4;
+    width: 40px;
+    height:40px;
+}
+
+ficha *{
+    display:inline-block;
+    
+    height:40px;
+}
+
+nombre, apellido,Dui,AFP{
+    display:inline-block;
+}
+
+pais,municipio *{
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 20px;
+    display:block;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: 6px darkgreen solid;
+    background:#181A1B;
+    color:white;
+}
+municipio *{
+    display:inline-block;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+departamento,municipio{
+    display:block;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+}
+
